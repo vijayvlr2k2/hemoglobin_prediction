@@ -21,7 +21,7 @@ def predict():
 
         # Extract SpO2 and Heart Rate from input
         spO2 = float(data["SpO2"])
-        heart_rate = float(data["Heart Rate"])
+        heart_rate = float(data["HeartRate"])
 
         # Prepare data for prediction
         input_data = pd.DataFrame({"SpO2": [spO2], "Heart Rate": [heart_rate]})
